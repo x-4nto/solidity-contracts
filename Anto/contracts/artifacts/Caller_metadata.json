@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.13+commit.abaa5c0e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract Callee",
+						"name": "_callee",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setX",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXFromAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "contract Callee",
+						"name": "_callee",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "setXandSendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/CallOther.sol": "Caller"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 199
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/CallOther.sol": {
+			"keccak256": "0xc32059b71efa818534fc8f99e20510f34e6583826fcb293ecc74ef65f2d609fa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f416056c8840156c72a8fc3d967fd727dcf623bbaee3a6edf97e85e4168937f",
+				"dweb:/ipfs/QmYVwJ2djREFzgS2Zn5cXnH4RH8mvh1Hqx76pBQLM7LJVM"
+			]
+		}
+	},
+	"version": 1
+}
